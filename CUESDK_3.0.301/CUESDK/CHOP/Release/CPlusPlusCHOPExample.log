@@ -1,0 +1,10 @@
+﻿  CPlusPlusCHOPExample.cpp
+g:\cplusplus apps\touchdesigner-icue\cuesdk_3.0.301\cuesdk\chop\cpluspluschopexample.cpp(124): warning C4996: 'CorsairSetLedsColorsAsync': It is not recommended to use this function with DIY-devices, coolers and memory modules. Consider using CorsairSetLedsColorsBufferByDeviceIndex to fill buffer and CorsairSetLedsColorsFlushBufferAsync to send data to CUE instead. To disable deprecation, use CORSAIR_LIGHTING_SDK_DISABLE_DEPRECATION_WARNINGS
+  g:\cplusplus apps\touchdesigner-icue\cuesdk_3.0.301\cuesdk\include\cuesdk.h(260): note: see declaration of 'CorsairSetLedsColorsAsync'
+     Creating library G:\CPlusPlus Apps\Touchdesigner-iCue\CUESDK_3.0.301\CUESDK\CHOP\Release\CPlusPlusCHOPExample.lib and object G:\CPlusPlus Apps\Touchdesigner-iCue\CUESDK_3.0.301\CUESDK\CHOP\Release\CPlusPlusCHOPExample.exp
+  Generating code
+  263 of 349 functions (75.4%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CPlusPlusCHOPExample.vcxproj -> G:\CPlusPlus Apps\Touchdesigner-iCue\CUESDK_3.0.301\CUESDK\CHOP\Release\CPlusPlusCHOPExample.dll

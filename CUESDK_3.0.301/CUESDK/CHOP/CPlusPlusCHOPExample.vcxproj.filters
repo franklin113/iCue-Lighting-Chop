@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CPlusPlusCHOPExample.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPlusPlusCHOPExample.h" />
+    <ClInclude Include="..\include\CUESDKGlobal.h">
+      <Filter>Corsair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CUESDK.h">
+      <Filter>Corsair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CorsairLedIdEnum.h">
+      <Filter>Corsair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CorsairKeyIdEnum.h">
+      <Filter>Corsair</Filter>
+    </ClInclude>
+    <ClInclude Include="CHOP_CPlusPlusBase.h">
+      <Filter>TD_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlusPlus_Common.h">
+      <Filter>TD_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GL_Extensions.h">
+      <Filter>TD_Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Corsair">
+      <UniqueIdentifier>{54babd39-3b86-4212-b123-89c23e8c1c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TD_Base">
+      <UniqueIdentifier>{928d4526-f37c-4af1-83b6-83bc85708664}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
